@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperaturas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Temperaturas</h1>
+  <div class="date-container">
+    <input type="date">
+  </div>
+  <div class="date-containerbtn">
+    <button id="mostrarTemperaturasBtn">Mostrar Temperaturas</button>
+  </div>
+  <div id="temperaturas-container"></div>
+  
+  <!-- Incluir el SDK de Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore-compat.js"></script>
+  <!-- Configuración de Firebase -->
+  <script src="firebase-config.js"></script>
+  <!-- Lógica de la aplicación -->
+  <script src="app.js"></script>
+</body>
+</html>
